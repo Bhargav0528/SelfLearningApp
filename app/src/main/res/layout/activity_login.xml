@@ -1,16 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.dsce.self_learning.selflearningapp.MainActivity">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context="com.dsce.self_learning.selflearningapp.LoginActivity">
 
     <TextView
         android:id="@+id/tl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-SIGNUP-"
+        android:text="-LOGIN-"
         android:textSize="30dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"/>
@@ -36,33 +39,33 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="30dp"
-        android:padding="10dp"
-        android:textColor="#0099cc"
         android:inputType="textPassword"
+        android:textColor="#0099cc"
+        android:padding="10dp"
         android:hint="PASSWORD"
         android:paddingStart="15dp"/>
 
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/upass"
         android:layout_margin="40dp"
-        android:text="SIGNUP"
-        android:onClick="crateNew"/>
+        android:text="LOGIN"
+        android:onClick="login"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/signup"
-        android:text="LOGIN"
-        android:layout_marginStart="100dp"
+        android:layout_below="@id/login"
+        android:text="SIGNUP"
+        android:layout_marginStart="80dp"
         android:textSize="15sp"
-        android:onClick="logpage"
+        android:onClick="Signuppage"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/signup"
+        android:layout_below="@id/login"
         android:layout_marginStart="200dp"
         android:text="INSTRUCTOR"
         android:textSize="15dp"/>
