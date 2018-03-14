@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "103964865114",
+    "firebase_url": "https://selflearningapp.firebaseio.com",
+    "project_id": "selflearningapp",
+    "storage_bucket": "selflearningapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103964865114:android:01aeee85a84013aa",
+        "android_client_info": {
+          "package_name": "com.dsce.self_learning.selflearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103964865114-psiansvdpqg051m4fcj9kn9c5s2lehfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dsce.self_learning.selflearningapp",
+            "certificate_hash": "d1863e1478feccb767fa95ce085b2b215fbab9b9"
+          }
+        },
+        {
+          "client_id": "103964865114-2hs574vrun5574fu6gkeii5jhebhdqem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuQ2oie-6V_fGtXPJJ44FDIOnV7DvE5U4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103964865114-2hs574vrun5574fu6gkeii5jhebhdqem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
